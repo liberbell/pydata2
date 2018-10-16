@@ -1,3 +1,3 @@
 x = 42
 
-print('Hello World. %d' % x)
+print('Hello World. {}'.format(x))
