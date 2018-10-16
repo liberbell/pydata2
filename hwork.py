@@ -1,3 +1,3 @@
 x = 42
-
-print('Hello World. {}'.format(x))
+s = 'Hello World. {}'.format(x)
+print(s)
