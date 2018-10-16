@@ -6,7 +6,10 @@ def main():
 def message():
     print('This is python version {}'.format(platform.python_version()))
     print('line two')
-print ('line three')
+    if True:
+        print ('line three')
+    else:
+        print('Not True')
 
 if __name__ == '__main__':
     main()
