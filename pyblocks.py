@@ -3,3 +3,8 @@ y = 73
 
 if x > y:
     print('x < y: x is {} and y is {}'.format(x,y))
+    print('line2')
+    print('line3')
+    print('line4')
+
+print('something else')
