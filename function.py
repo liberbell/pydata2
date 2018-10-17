@@ -1,4 +1,4 @@
 def function(n):
     print(n)
 
-function(47)
+function('happy')
