@@ -1,4 +1,4 @@
-x = 7
+x = 'abc'
 
 print('x is {}'.format(x))
 print(type(x))
