@@ -13,8 +13,9 @@ def list_primes():
             print(n, end=' ', flush=True)
     print()
 
-n = 6
-if isprime(n):
-    print(f'{n} is prime')
-else:
-    print(f'{n} is not prime')
+# n = 6
+# if isprime(n):
+#     print(f'{n} is prime')
+# else:
+#     print(f'{n} is not prime')
+list_primes()
