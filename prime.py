@@ -8,7 +8,7 @@ def isprime(n):
         return True
 
 def list_primes():
-    for n in range(100):
+    for n in range(10000):
         if isprime(n):
             print(n, end=' ', flush=True)
     print()
