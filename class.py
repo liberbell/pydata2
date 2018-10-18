@@ -3,10 +3,12 @@ class Duck:
     walking = 'walks like a line'
 
     def quack(self):
-        print('Quaaack!')
+        # print('Quaaack!')
+        print(self.sound)
 
     def walk(self):
-        print('walks like a line')
+        # print('walks like a line')
+        print(self.walking)
 
 def main():
     donald = Duck()
