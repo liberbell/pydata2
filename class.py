@@ -1,6 +1,6 @@
 class Duck:
     sound = 'Quaaack'
-    walking = 'walks like a line'
+    walking = 'walking like a line'
 
     def quack(self):
         # print('Quaaack!')
