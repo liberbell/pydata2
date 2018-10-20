@@ -1,4 +1,10 @@
-x = 'seven "{1:<09}" "{0:>09}"'.format(8, 9)
+a = 8
+b = 9
+
+x = 'seven {} {}'.format(8, 9)
+y = f'seven {a} {b}'
 
 print('x is {}'.format(x))
+print('y is {}'.format(y))
 print(type(x))
+print(type(y))
