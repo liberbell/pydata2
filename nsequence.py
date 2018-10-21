@@ -9,3 +9,8 @@ if x[0] is y[0]:
     print('yep')
 else:
     print('nope')
+
+if isinstance(x, tuple):
+    print('yep')
+else:
+    print('nope')
