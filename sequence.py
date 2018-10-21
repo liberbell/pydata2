@@ -5,4 +5,4 @@ for i in x:
     print('i is {}'.format(i))
 
 for h, j in y.items():
-    print('h: {},j: {}'.format(h, j))
+    print('h: {}, j: {}'.format(h, j))
