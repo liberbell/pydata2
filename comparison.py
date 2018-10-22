@@ -1,10 +1,9 @@
 x = 42
-y = 73
+y = 42
 
-if x < y:
+if x >= y:
     print('comparison is true')
-elif:
+elif x > y:
     print('waaa')
-elif:
 else:
     print('comparison is false')
