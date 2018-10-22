@@ -1,7 +1,7 @@
 x = 42
-y = 42
+y = 73
 
-if x >= y:
+if x != y:
     print('comparison is true')
 elif x > y:
     print('waaa')
