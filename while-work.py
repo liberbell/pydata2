@@ -1,4 +1,4 @@
-secret = 'sordfish'
+secret = 'swordfish'
 pw = ''
 
 while pw != secret:
