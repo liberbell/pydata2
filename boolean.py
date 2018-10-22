@@ -3,7 +3,7 @@ b = False
 x = ('beer', 'bunny', 'tree', 'sky', 'rain')
 y = 'beer'
 
-if a and b:
+if y in x:
     print('expression is true')
 else:
     print('expression is false')
