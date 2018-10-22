@@ -1,5 +1,5 @@
 x = 0x0a
-y = 0x02
+y = 0x05
 z = x | y
 
 print(f'(hex) x is {x:04x}, y is {y:04x}, z is {z:04x}')
