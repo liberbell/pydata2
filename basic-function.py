@@ -1,10 +1,11 @@
 def main():
-    x = kitten()
-    print(x)
+    x = kitten(5, 6)
+    # print(x)
 
-def kitten():
-    # print('Meow.')
-    return 'Meow.'
+def kitten(a, b, c = 0):
+    print('Meow.')
+    print(a, b, c)
+    # return 'Meow.'
 
 if __name__ == '__main__':
     main()
