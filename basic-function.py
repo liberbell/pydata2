@@ -1,8 +1,9 @@
 def main():
-    kitten(5)
+    x = kitten()
+    print(x)
 
-def kitten(n):
-    print(f'{n} Meow.')
+def kitten():
+    print('Meow.')
 
 if __name__ == '__main__':
     main()
