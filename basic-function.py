@@ -1,5 +1,5 @@
 def main():
-    x = kitten(5, 6)
+    x = kitten(5, 6, 7)
     # print(x)
 
 def kitten(a, b, c = 0):
