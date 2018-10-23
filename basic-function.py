@@ -3,7 +3,8 @@ def main():
     print(x)
 
 def kitten():
-    print('Meow.')
+    # print('Meow.')
+    return 'Meow.'
 
 if __name__ == '__main__':
     main()
