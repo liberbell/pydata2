@@ -1,6 +1,8 @@
 def main():
     x = 5
+    y = x
     print(id(x))
+    print(id(y))
     kitten(x)
     print(f'in a main: x is {x}')
     # print(x)
