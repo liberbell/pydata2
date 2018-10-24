@@ -1,10 +1,11 @@
 def main():
     x = 5
     y = x
+    y = 3
     print(id(x))
     print(id(y))
-    kitten(x)
-    print(f'in a main: x is {x}')
+    # kitten(x)
+    # print(f'in a main: x is {x}')
     # print(x)
 
 def kitten(a):
