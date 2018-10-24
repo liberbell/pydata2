@@ -1,10 +1,12 @@
 def main():
-    x = kitten(5, 6, 7)
+    x = 5
+    kitten(x)
+    print(f'in a main: x is {x}')
     # print(x)
 
-def kitten(a, b, c = 0):
+def kitten(a):
     print('Meow.')
-    print(a, b, c)
+    print(a)
     # return 'Meow.'
 
 if __name__ == '__main__':
