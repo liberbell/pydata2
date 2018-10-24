@@ -9,6 +9,7 @@ def kitten(a):
     print(a)
     print(id(a))
     a = 3
+    print(id(a))
     print('Meow.')
     print(a)
     # return 'Meow.'
