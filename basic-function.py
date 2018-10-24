@@ -5,6 +5,8 @@ def main():
     # print(x)
 
 def kitten(a):
+    print(a)
+    a = 3
     print('Meow.')
     print(a)
     # return 'Meow.'
