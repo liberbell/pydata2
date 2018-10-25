@@ -1,5 +1,5 @@
 def main():
-    kitten('meow', 'grrr', 'purr')
+    kitten('meow', 'grrr', 'purr', 'Hello', 'World')
 
 def kitten(*args):
     if len(args):
