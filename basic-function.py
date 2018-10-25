@@ -7,7 +7,7 @@ def main():
     # print(x)
 
 def kitten(a):
-4    print(a)
+    print(a)
     # print(id(a))
     # a = 3
     # print(id(a))
