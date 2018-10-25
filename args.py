@@ -8,4 +8,4 @@ def kitten(*args):
     else:
         print('Meow.')
 
-if __main__ == '__main__': main()
+if __name__ == '__main__': main()
