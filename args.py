@@ -7,5 +7,6 @@ def kitten(*args):
             print(s)
     else:
         print('Meow.')
+        # other pattern
 
 if __name__ == '__main__': main()
