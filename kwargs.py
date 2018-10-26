@@ -1,5 +1,6 @@
 def main():
-    kitten(buffy= 'meow', Zilla= 'grr', Angel= 'rawr')
+    x = dict(buffy= 'meow', Zilla= 'grr', Angel= 'rawr')
+    kitten(**x)
 
 def kitten(**kwargs):
     if len(kwargs):
