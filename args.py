@@ -1,5 +1,6 @@
 def main():
-    kitten('meow', 'grrr', 'purr', 'Hello', 'World', 'Wow')
+    x = ('meow', 'grrr', 'purr', 'Hello', 'World', 'Wow')
+    kitten(*x)
 
 def kitten(*args):
     if len(args):
@@ -7,6 +8,5 @@ def kitten(*args):
             print(s)
     else:
         print('Meow.')
-        # other pattern
-
+ 
 if __name__ == '__main__': main()
