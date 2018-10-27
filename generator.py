@@ -11,4 +11,4 @@ def inclusive_range(*args):
     if numargs < 1:
         raise TypeError(f'expected at lease 1 argement, got {numargs}')
     elif numargs == 1:
-        
+        print('nothing')
