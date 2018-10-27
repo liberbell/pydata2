@@ -1,6 +1,3 @@
-
-
-
 def main():
     for i in inclusive_range(25):
         print(i, end = ' ')
@@ -9,9 +6,8 @@ def main():
 def inclusive_range(*args):
     numargs = len(args)
     start = 0
-    stop = 1
+    step = 1
 
-    
     if numargs < 1:
         raise TypeError(f'expected at lease 1 argement, got {numargs}')
     elif numargs == 1:
@@ -22,7 +18,6 @@ def inclusive_range(*args):
         (start, stop, step) = args
     else: raise TypeError(f'expected at most 3 argements, got {numargs}')
     
-
     i = start
     while i <= stop:
         yield i

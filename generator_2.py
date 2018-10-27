@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# Copyright 2009-2017 BHG http://bw.org/
-
 def main():
     for i in inclusive_range(5, 25, 5):
         print(i, end = ' ')
@@ -11,7 +8,6 @@ def inclusive_range(*args):
     start = 0
     step = 1
 
-    # initialize parameters
     if numargs < 1:
         raise TypeError(f'expected at least 1 argument, got {numargs}')
     elif numargs == 1:
@@ -22,7 +18,6 @@ def inclusive_range(*args):
         (start, stop, step) = args
     else: raise TypeError(f'expected at most 3 arguments, got {numargs}')
 
-    # generator
     i = start
     while i <= stop:
         yield i
