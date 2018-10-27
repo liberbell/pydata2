@@ -1,6 +1,6 @@
-print('Hello World.')
+# print('Hello World.')
 
-def fi():
+def f1():
     print('this is fi')
 
-fi()
+x = f1
