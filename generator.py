@@ -19,4 +19,8 @@ def inclusive_range(*args):
     else: rasie TypeError(f'expected at most 3 argement, got {numargs}')
     
     i = start
-    
+    while i <= stop:
+        yield i
+        i += step
+
+    if __name__ == '__main__': main()
