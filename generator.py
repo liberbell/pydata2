@@ -1,5 +1,5 @@
 def main():
-    for i in inclusive_range(25):
+    for i in inclusive_range(1, 25):
         print(i, end = ' ')
     print()
 
