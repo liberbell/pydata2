@@ -5,8 +5,9 @@ def main():
     #     print(f'{k}: {v}')
     # for v in animals.values():
     #     print(v)
-    print(animals['lion'])
-    # print_dict(animals)
+    # print(animals['lion'])
+    animals['lion'] = 'I am a Lion'
+    print_dict(animals)
 
 def print_dict(o):
     for k, v in o.items():
