@@ -8,7 +8,8 @@ def main():
     # print(animals['lion'])
     # animals['monkey'] = 'haha'
     # print('lion' in animals)
-    print('found!' if 'monkey' in animals else 'nope')
+    # print('found!' if 'monkey' in animals else 'nope')
+    print(animals.get('godzilla'))
     print_dict(animals)
 
 def print_dict(o):
