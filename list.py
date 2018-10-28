@@ -1,6 +1,6 @@
 def main():
     game = ['rock', 'paper', 'scissor', 'lizard', 'spock']
-    print(game[1])
+    print(game[1:3])
     print_list(game)
 
 def print_list(o):
