@@ -3,7 +3,9 @@ def main():
         'giraffe': 'I am a giraffe!', 'dragon': 'rawr'}
     # for k, v in animals.items():
     #     print(f'{k}: {v}')
-    print_dict(animals)
+    for k in animals.keys():
+        print(k)
+    # print_dict(animals)
 
 def print_dict(o):
     for k, v in o.items():
