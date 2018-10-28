@@ -6,7 +6,7 @@ def main():
     # for v in animals.values():
     #     print(v)
     # print(animals['lion'])
-    animals['lion'] = 'I am a Lion'
+    animals['monkey'] = 'haha'
     print_dict(animals)
 
 def print_dict(o):
