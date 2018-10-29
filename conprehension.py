@@ -1,6 +1,6 @@
 def main():
     seq = range(11)
-    seq2 = [x * 2 for x in seq if x % 3 != 0]
+    seq2 = [x for x in seq if x % 3 != 0]
     print_list(seq)
     print_list(seq2)
 
