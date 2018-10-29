@@ -6,7 +6,7 @@ def main():
     # seq2 = [round(pi, i) for i in seq]
     seq2 = { x: x**2 for x in seq}
     print_list(seq)
-    print_list(seq2)
+    print(seq2)
 
 def print_list(o):
     for x in o:
