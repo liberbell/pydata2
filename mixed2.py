@@ -35,3 +35,9 @@ def print_tuple(o):
     for x in o:
         disp(o)
     print(')', end=' ', flush=True)
+
+def print_set(o):
+    print('{', end=' ')
+    if x in o:
+        disp(o)
+    print('}', end=' ', flush=True)
