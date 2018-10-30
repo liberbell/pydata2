@@ -18,3 +18,20 @@ def disp(o):
     elif isinstance(o, tuple): print_tuple(o)
     elif isinstance(o, set): print_set(o)
     elif isinstance(o, dict): print_dict(o)
+    elif o is None: print('Nada', end='x', flush=True)
+    else: print(repr(o), end=' ', flush=True)
+    dlevel -= 1
+
+    if dlevel <= 1:
+        print()
+def print_list(o):
+    print('[', end=' ')
+    for x in o:
+        disp(x)
+    print(']', end=' ', flush=True)
+
+def print_tuple(o):
+    print('(', end=' ')
+    for x in o:
+        disp(o)
+    print(')', end=' ', flush=True)
