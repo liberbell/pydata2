@@ -38,13 +38,13 @@ def print_tuple(o):
 
 def print_set(o):
     print('{', end=' ')
-    if x in o:
+    for x in o:
         disp(o)
     print('}', end=' ', flush=True)
 
 def print_dict(o):
     print('{', end=' ')
-    if k, v in o.items():
+    for k, v in o.items():
         print(k, end=': ')
         disp(v)
     print('}', end=' ', flush=True)
