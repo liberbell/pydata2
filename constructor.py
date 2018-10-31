@@ -24,5 +24,6 @@ def main():
     print_animal(a0)
     print_animal(a1)
     print_animal(Animal(type= 'velociraptor', name= 'veronica', sound= 'hello'))
+    print_animal(Animal())
 
 if __name__ == '__main__': main()
