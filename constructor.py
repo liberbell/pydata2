@@ -4,14 +4,14 @@ class Animal:
         self._name = name
         self._sound = sound
 
-        def type(self):
-            return self._type
+    def type(self):
+        return self._type
 
-        def name(self):
-            return self._name
+    def name(self):
+        return self._name
 
-        def sound(self):
-            return self._sound
+    def sound(self):
+        return self._sound
 
 def print_animal(o):
     if not isinstance(o, Animal):
