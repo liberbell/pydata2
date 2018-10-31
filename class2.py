@@ -5,7 +5,10 @@ class duck:
     def quack(self):
         print(self.sound)
 
-    def movement(self):
+    def move(self):
         print(self.movement)
 
-def 
+def main():
+    donald = Duck()
+    donald.quack()
+    donald.move()
