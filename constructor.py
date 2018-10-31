@@ -16,7 +16,7 @@ class Animal:
 def print_animal(o):
     if not isinstance(o, Animal):
         raise TypeError('print_animal(): requires an Animal')
-    print('The {} is named "{}" and says "{}".'.format(o,type(), o.name(), o.sound()))
+    print('The {} is named "{}" and says "{}".'.format(o.type(), o.name(), o.sound()))
 
 def main():
     a0 = Animal('kitten', 'fluffy', 'rwar')
