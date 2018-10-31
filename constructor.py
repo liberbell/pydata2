@@ -1,4 +1,4 @@
-class animal:
+class Animal:
     def __init__(self, type, name, sound):
         self._type = type
         self._name = name
@@ -12,3 +12,11 @@ class animal:
 
         def sound(self):
             return self._sound
+
+def print_animal(o):
+    if not isinstance(o, Animal):
+        raise TypeError('print_animal(): requires an Animal')
+    print('The {} is named "{}" and says "{}".'.format(o,type(), o.name(), o.sound()))
+
+def main():
+    a0 = 
