@@ -23,6 +23,6 @@ def main():
     a1 = Animal(type= 'duck', name= 'donald', sound= 'quack')
     print_animal(a0)
     print_animal(a1)
-    print_animal(Animal('velociraptor', 'veronica', 'hello'))
+    print_animal(Animal(type= 'velociraptor', name= 'veronica', sound= 'hello'))
 
 if __name__ == '__main__': main()
