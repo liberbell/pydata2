@@ -19,4 +19,10 @@ def print_animal(o):
     print('The {} is named "{}" and says "{}".'.format(o,type(), o.name(), o.sound()))
 
 def main():
-    a0 = 
+    a0 = Animal('kitten', 'fluffy', 'rwar')
+    a1 = Animal('duck', 'donald', 'quack')
+    print_animal(a0)
+    print_animal(a1)
+    print_animal(Animal('velociraptor', 'veronica', 'hello'))
+
+if __name__ == '__main__': main()
