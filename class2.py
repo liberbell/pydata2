@@ -1,4 +1,4 @@
-class duck:
+class Duck:
     sound = 'Quack Quack.'
     movement = 'Walks like a duck.'
 
