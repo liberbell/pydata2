@@ -24,7 +24,7 @@ def disp(o):
 
     if dlevel <= 1:
         print()
-        
+
 def print_list(o):
     print('[', end=' ')
     for x in o:
@@ -34,13 +34,13 @@ def print_list(o):
 def print_tuple(o):
     print('(', end=' ')
     for x in o:
-        disp(o)
+        disp(x)
     print(')', end=' ', flush=True)
 
 def print_set(o):
     print('{', end=' ')
-    for x in o:
-        disp(o)
+    for x in sorted(o):
+        disp(x)
     print('}', end=' ', flush=True)
 
 def print_dict(o):
