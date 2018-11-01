@@ -1,5 +1,4 @@
 class Animal:
-    x = [1, 2, 3]
     def __init__(self, **kwargs):
         self._type = kwargs['type'] if 'type' in kwargs else 'kitten'
         self._name = kwargs['name'] if 'name' in kwargs else 'fluffy'
