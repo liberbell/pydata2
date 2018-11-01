@@ -6,15 +6,24 @@ class Animal:
 
     def type(self, t = None):
         if t: self._type = t
-        return self._type
+        try:
+            return self._type
+        except AttributeError:
+            return None
 
     def name(self, n = None):
         if n: self._name = n
-        return self._name
+        try:
+            return self._name
+        except AttributeError:
+            return None
 
     def sound(self, s = None):
         if s: self._sound = s
-        return self._sound
+        try:
+            return self._sound
+        except AttributeError:
+            return None
 
     def __str__(self):
         return f'The {self.type()} is named "{self.name()}" and says "{self.sound()}".'
