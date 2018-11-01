@@ -5,13 +5,19 @@ class Animal:
         self._sound = kwargs['sound'] if 'sound' in kwargs else 'rwar'
 
     def type(self):
+        if t: self._type = t
         return self._type
 
     def name(self):
+        if n: self._name = n
         return self._name
 
     def sound(self):
+        if s: self._sound = s
         return self._sound
+
+    def __str__(self):
+        return f'The {self.type()} is named "{self.name()}" and says "{self.sound()}".'
 
 def print_animal(o):
     if not isinstance(o, Animal):
