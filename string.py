@@ -50,8 +50,8 @@ class Kitten(Animal):
 def main():
     # a0 = Animal(type= 'kitten', name= 'fluffy', sound= 'rwar')
     # a1 = Animal(type= 'duck', name= 'donald', sound= 'quack')
-    a0 = Duck(name= 'fluffy', sound= 'rwar')
-    a1 = Kitten(name= 'donald', sound= 'quack')
+    a0 = Kitten(name= 'fluffy', sound= 'rwar')
+    a1 = Duck(name= 'donald', sound= 'quack')
  
     print(a0)
     print(a1)
