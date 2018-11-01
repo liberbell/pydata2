@@ -40,21 +40,26 @@ class Kitten(Animal):
         self._type = 'kitten'
         if 'type' in kwargs:
             del kwargs['type']
-def print_animal(o):
-    if not isinstance(o, Animal):
-        raise TypeError('print_animal(): requires an Animal')
-    print('The {} is named "{}" and says "{}".'.format(o.type(), o.name(), o.sound()))
+        super().__init__(**kwargs)
+
+# def print_animal(o):
+#     if not isinstance(o, Animal):
+#         raise TypeError('print_animal(): requires an Animal')
+#     print('The {} is named "{}" and says "{}".'.format(o.type(), o.name(), o.sound()))
 
 def main():
-    a0 = Animal(type= 'kitten', name= 'fluffy', sound= 'rwar')
-    a1 = Animal(type= 'duck', name= 'donald', sound= 'quack')
+    # a0 = Animal(type= 'kitten', name= 'fluffy', sound= 'rwar')
+    # a1 = Animal(type= 'duck', name= 'donald', sound= 'quack')
+    a0 = Duck(type= 'kitten', name= 'fluffy', sound= 'rwar')
+    a1 = Kitten(type= 'duck', name= 'donald', sound= 'quack')
+ 
     print(a0)
     print(a1)
-    a0.name('Joe!')
-    print(a1._name)
-    print(a0.x)
-    a1.x[0] = 8
-    print(a0.x)
+    # a0.name('Joe!')
+    # print(a1._name)
+    # print(a0.x)
+    # a1.x[0] = 8
+    # print(a0.x)
  
     # print_animal(a0)
     # print_animal(a1)
