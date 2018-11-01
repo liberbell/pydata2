@@ -1,8 +1,11 @@
 class Animal:
     def __init__(self, **kwargs):
-        self._type = kwargs['type'] if 'type' in kwargs else 'kitten'
-        self._name = kwargs['name'] if 'name' in kwargs else 'fluffy'
-        self._sound = kwargs['sound'] if 'sound' in kwargs else 'rwar'
+        if 'type' in kwargs:
+            self._type = kwargs['type']
+        if 'name' in kwargs:
+            self._name = kwargs['name']
+        if 'sound' in kwargs:
+            self._sound = kwargs['sound']
 
     def type(self, t = None):
         if t: self._type = t
