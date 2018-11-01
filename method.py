@@ -4,15 +4,15 @@ class Animal:
         self._name = kwargs['name'] if 'name' in kwargs else 'fluffy'
         self._sound = kwargs['sound'] if 'sound' in kwargs else 'rwar'
 
-    def type(self):
+    def type(self, t = None):
         if t: self._type = t
         return self._type
 
-    def name(self):
+    def name(self, n = None):
         if n: self._name = n
         return self._name
 
-    def sound(self):
+    def sound(self, s = None):
         if s: self._sound = s
         return self._sound
 
