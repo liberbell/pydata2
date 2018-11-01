@@ -27,7 +27,8 @@ def print_animal(o):
 def main():
     a0 = Animal(type= 'kitten', name= 'fluffy', sound= 'rwar')
     a1 = Animal(type= 'duck', name= 'donald', sound= 'quack')
-    a0.sound('baaa!')
+    a0.name('Joe!')
+    print(a0._name)
     print(a0)
     print(a1)
     # print_animal(a0)
