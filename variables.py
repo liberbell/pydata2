@@ -34,6 +34,7 @@ def main():
     print(a1._name)
     print(a0.x)
     a1.x[0] = 8
+    print(a0.x)
  
     # print_animal(a0)
     # print_animal(a1)
