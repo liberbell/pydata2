@@ -61,6 +61,7 @@ def main():
 
     print(a0)
     print(a1)
+    a0.kill('humans')
     # a0.name('Joe!')
     # print(a1._name)
     # print(a0.x)
