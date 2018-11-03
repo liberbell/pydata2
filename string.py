@@ -45,6 +45,9 @@ class Kitten(Animal):
             del kwargs['type']
         super().__init__(**kwargs)
 
+    def kill(self, s):
+        print(f'{self.name()} will now kill all {s}!')
+
 # def print_animal(o):
 #     if not isinstance(o, Animal):
 #         raise TypeError('print_animal(): requires an Animal')
@@ -55,7 +58,7 @@ def main():
     # a1 = Animal(type= 'duck', name= 'donald', sound= 'quack')
     a0 = Kitten(name= 'fluffy', sound= 'rwar')
     a1 = Duck(name= 'donald', sound= 'quack')
- 
+
     print(a0)
     print(a1)
     # a0.name('Joe!')
@@ -63,7 +66,7 @@ def main():
     # print(a0.x)
     # a1.x[0] = 8
     # print(a0.x)
- 
+
     # print_animal(a0)
     # print_animal(a1)
     # print_animal(Animal(type= 'velociraptor', name= 'veronica', sound= 'hello'))
