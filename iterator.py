@@ -6,3 +6,7 @@ class inclusive_range:
 
         if numargs < 1:
             raise TypeError(f'expected at least 1 argument, got {numargs}')
+        elif numargs == 1:
+            self._stop = args[0]
+        elif numargs == 2:
+            self._start, 
