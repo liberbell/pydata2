@@ -28,7 +28,7 @@ class inclusive_range:
             self._next += self._step
             return _r
 def main():
-    for n in inclusive_range(25):
+    for n in inclusive_range(25, 100, 3):
         print(n, end=' ')
     print()
 
