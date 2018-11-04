@@ -23,3 +23,14 @@ class inclusive_range:
     def __next__(self):
         if self._next > self._stop:
             raise StopIteration
+        else:
+            _r = self._next
+            self._next += self._step
+            return _r
+def main():
+    for n in inclusive_range(25):
+        print(n, end=' ')
+    print()
+    
+if __name__ == '__main__':
+    main()
