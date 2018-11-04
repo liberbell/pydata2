@@ -9,4 +9,16 @@ class inclusive_range:
         elif numargs == 1:
             self._stop = args[0]
         elif numargs == 2:
-            self._start, 
+            (self._start, self._stop) = args
+        elif numargs == 3:
+            (self._start, self._stop, self._step) = args
+        else:
+            raise TypeError(f'expected at most 3 arguments, got {numargs}')
+
+        self._next = self._start
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        
