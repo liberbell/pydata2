@@ -21,4 +21,5 @@ class inclusive_range:
         return self
 
     def __next__(self):
-        
+        if self._next > self._stop:
+            raise StopIteration
