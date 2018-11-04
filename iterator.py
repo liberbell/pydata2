@@ -2,7 +2,7 @@ class inclusive_range:
     def __init__(self, *args):
         numargs = len(args)
         self._start = 0
-        self._stop = 1
+        self._step = 1
 
         if numargs < 1:
             raise TypeError(f'expected at least 1 argument, got {numargs}')
@@ -31,6 +31,6 @@ def main():
     for n in inclusive_range(25):
         print(n, end=' ')
     print()
-    
+
 if __name__ == '__main__':
     main()
