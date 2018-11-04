@@ -1,6 +1,6 @@
 def main():
     try:
-        x = int('foo')
+        x = 5/0
     except ValueError:
         print('I caught a ValueError {}'.format)
 
