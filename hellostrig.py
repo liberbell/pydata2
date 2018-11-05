@@ -1,2 +1,6 @@
-s = 'Hello World {}'
-print(s.format(42 * 7))
+class Myclass(str):
+    def __str__(self):
+        return self[::-1]
+
+s = 'Hello World.'
+print(s)
