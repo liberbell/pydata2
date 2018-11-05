@@ -21,9 +21,12 @@ def inclusive_range(*args):
         i += step
 
 def main():
-    for i in inclusive_range(0, 1, 2, 3):
-        print(i, end = ' ')
-    print()
+    try:
+        for i in inclusive_range():
+            print(i, end = ' ')
+        print()
+    except TypeError as e:
+        print(f'range error: {e}')
 
 if __name__ == '__main__':
     main()
