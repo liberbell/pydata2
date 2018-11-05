@@ -21,4 +21,9 @@ def inclusive_range(*args):
         i += step
 
 def main():
-    for i in inclusive_range(25)
+    for i in inclusive_range(25):
+        print(i, end = ' ')
+    print()
+
+if __name__ == '__main__':
+    main()
