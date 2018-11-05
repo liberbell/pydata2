@@ -1,1 +1,6 @@
-print('Hello World {}'.format(42 * 7))
+print('''
+    Hello
+    World
+
+    {}
+    '''.format(42 * 7))
