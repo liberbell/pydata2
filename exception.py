@@ -21,7 +21,7 @@ def inclusive_range(*args):
         i += step
 
 def main():
-    for i in inclusive_range(25, 50, 2):
+    for i in inclusive_range(0, 1, 2, 3):
         print(i, end = ' ')
     print()
 
