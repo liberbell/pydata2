@@ -1,6 +1,6 @@
-class Myclass(str):
+class MyString(str):
     def __str__(self):
         return self[::-1]
 
-s = 'Hello World.'
+s = MyString('Hello World.')
 print(s)
