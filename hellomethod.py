@@ -1,4 +1,4 @@
 s1 = 'Hello World.'
 s2 = s1.upper()
-print(s1)
-print(s2)
+print(id(s1))
+print(id(s2))
