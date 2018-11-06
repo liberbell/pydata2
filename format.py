@@ -1,4 +1,4 @@
 
 x = 42
-
-print('the number is {}'.format(x))
+y = 73
+print('the number is {} and {}'.format(x, y))
