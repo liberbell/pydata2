@@ -1,1 +1,1 @@
-print('Hello World.'.lower())
+print('Hello World.'.title())
