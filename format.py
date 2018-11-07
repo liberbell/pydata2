@@ -1,4 +1,4 @@
 
-x = 42 * 747 * 1000
+x = 42
 y = 73
-print('the number is {:.3f}'.format(x))
+print('the number is {:x}'.format(x))
