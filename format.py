@@ -1,4 +1,4 @@
 
-x = 42
+x = 42 * 747
 y = 73
-print('the number is {0:<05} and {1:+}'.format(x, y))
+print('the number is {}'.format(x))
