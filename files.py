@@ -1,5 +1,5 @@
 def main():
-    f = open('lines.txt')
+    f = open('lines.txt', 'r')
     for line in f:
         print(line.rstrip())
 
