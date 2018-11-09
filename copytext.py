@@ -5,6 +5,7 @@ def main():
         print(line.rstrip(), file=outfile)
         print('.', end='', flush=True)
     outfile.close()
+    infile.close()
     print('\ndone.')
 
 if __name__ == '__main__':
