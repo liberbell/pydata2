@@ -8,3 +8,5 @@ def main():
             print('.', end='', flush=True)
         else:
             break
+        outfile.close()
+        print('\ndone.')
