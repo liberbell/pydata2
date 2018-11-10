@@ -2,7 +2,7 @@ def main():
     infile = open('berlin.jpg', 'rb')
     outfile = open('berlin-copy.jpg', 'wb')
     while True:
-        buf = infile.read(10240)
+        buf = infile.read(102400)
         if buf:
             outfile.write(buf)
             print('.', end='', flush=True)
