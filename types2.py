@@ -1,5 +1,5 @@
-x = -47
-y = abs(x)
+x = 47.3
+y = divmod(x)
 
 print(f'x is {type(x)}')
 print(f'x is {x}')
