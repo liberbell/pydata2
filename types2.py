@@ -1,5 +1,5 @@
 x = 47
-y = complex(x, 3)
+y = y = x + 73j
 
 print(f'x is {type(x)}')
 print(f'x is {x}')
