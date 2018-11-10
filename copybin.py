@@ -8,8 +8,8 @@ def main():
             print('.', end='', flush=True)
         else:
             break
-        outfile.close()
-        print('\ndone.')
+    outfile.close()
+    print('\ndone.')
 
 if __name__ == '__main__':
     main()
