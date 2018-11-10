@@ -10,3 +10,6 @@ def main():
             break
         outfile.close()
         print('\ndone.')
+
+if __name__ == '__main__':
+    main()
