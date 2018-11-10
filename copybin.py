@@ -1,5 +1,5 @@
 def main():
-    infile = open('berlin.jpg', 'rb')
+    infile = open('berlin.jpg', 'rt')
     outfile = open('berlin-copy.jpg', 'wb')
     while True:
         buf = infile.read(10240)
