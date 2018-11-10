@@ -1,5 +1,5 @@
-x = 47.3
-y = divmod(x, 3)
+x = 47
+y = complex(x, 3)
 
 print(f'x is {type(x)}')
 print(f'x is {x}')
