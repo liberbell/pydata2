@@ -1,4 +1,5 @@
 x = 42
-y = type(x)
+y = isinstance(x, int)
+
 print(x)
 print(y)
