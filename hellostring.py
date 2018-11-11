@@ -7,4 +7,5 @@ class bunny:
     #     return f'str: the number of bunnies is {self._n}'
 
 x = bunny(47)
-print(repr(x))
+print(ascii(x))
+print(chr(128486))
