@@ -8,4 +8,4 @@ class bunny:
 
 x = bunny(47)
 print(ascii(x))
-print(chr(128486))
+print(chr(128406))
