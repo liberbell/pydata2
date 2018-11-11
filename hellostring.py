@@ -4,5 +4,5 @@ class bunny:
     def __repr__(self):
         return f'the number of bunnies is {self._n}'
 
-s = bunny(47)
-print(repr(s))
+x = bunny(47)
+print(x)
