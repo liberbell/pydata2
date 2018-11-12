@@ -1,5 +1,5 @@
 x = 42.0
-y = isinstance(x, int)
+y = id(x)
 
 print(x)
 print(y)
