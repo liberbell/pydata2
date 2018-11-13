@@ -2,7 +2,7 @@ import sys
 import os
 
 def main():
-    v = os.getenv('PATH')
+    v = os.urandom(25).hex()
     print(v)
     # print('Python version is {}.{}.{}'.format(*v))
 
