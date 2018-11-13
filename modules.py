@@ -3,7 +3,7 @@ import os
 import random
 
 def main():
-    v = random.randint(1, 1000)
+    v = list(range(25))
     print(v)
     # print('Python version is {}.{}.{}'.format(*v))
 
