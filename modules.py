@@ -2,7 +2,7 @@ import sys
 import os
 
 def main():
-    v = os.name
+    v = os.getenv('PATH')
     print(v)
     # print('Python version is {}.{}.{}'.format(*v))
 
