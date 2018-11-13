@@ -9,7 +9,7 @@ def main():
     random.shuffle(v)
     print(v)
     now = datetime.datetime.now()
-    print(now)
+    print(now.year, now.month, now.day)
     # print('Python version is {}.{}.{}'.format(*v))
 
 if __name__ == '__main__':
