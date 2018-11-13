@@ -1,8 +1,9 @@
 import sys
 import os
+import random
 
 def main():
-    v = os.urandom(25).hex()
+    v = random.randint(1, 1000)
     print(v)
     # print('Python version is {}.{}.{}'.format(*v))
 
