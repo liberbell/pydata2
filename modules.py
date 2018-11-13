@@ -1,7 +1,8 @@
 import sys
+import os
 
 def main():
-    v = sys.platform
+    v = os.name
     print(v)
     # print('Python version is {}.{}.{}'.format(*v))
 
