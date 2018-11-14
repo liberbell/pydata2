@@ -10,3 +10,9 @@ class bwDB:
             table is for CRUD methods
             filename is for connecting to the database file
         '''
+        self._filename = kwargs.get('filename')
+        self._table = kwargs.get('table', '')
+
+    def set_table(self, tablename):
+        self._table = tablename
+        
