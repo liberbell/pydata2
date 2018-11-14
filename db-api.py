@@ -23,3 +23,9 @@ def main():
     cur.execute('''
         INSERT INTO test (string, number) VALUES ('three', 3)
         ''')
+    print('commit')
+    db.commit()
+    print('count')
+    cur.execute('SELECT COUNT(*) FROM test')
+    count = cur.fetchone()[0]
+    
