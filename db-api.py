@@ -28,4 +28,6 @@ def main():
     print('count')
     cur.execute('SELECT COUNT(*) FROM test')
     count = cur.fetchone()[0]
+    print(f'there are {count} rows in the table.')
+    print('read')
     
