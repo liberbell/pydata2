@@ -8,5 +8,7 @@ def main():
     cur.execute('DROP TABLE IF EXISTS test')
     cur.execute('''
         CREATE TABLE test (
-            id 
-        ))
+            id INTEGER PRIMARY KEY, string TEXT, number INTEGER
+        )
+        ''')
+    print('insert row')
