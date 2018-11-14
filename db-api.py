@@ -19,3 +19,7 @@ def main():
     cur.execute('''
         INSERT INTO test (string, number) VALUES ('two', 2)
         ''')
+    print('insert row')
+    cur.execute('''
+        INSERT INTO test (string, number) VALUES ('three', 3)
+        ''')
