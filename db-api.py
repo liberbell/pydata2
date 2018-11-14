@@ -30,4 +30,12 @@ def main():
     count = cur.fetchone()[0]
     print(f'there are {count} rows in the table.')
     print('read')
-    
+    for row in cur.execute('SELECT * FROM test'):
+        print(row)
+    print('DROP')
+    cur.execute('DROP TABLE test')
+    print('close')
+    db.close()
+
+if __name__ == '__main__':
+    main()
