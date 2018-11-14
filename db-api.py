@@ -13,4 +13,9 @@ def main():
         ''')
     print('insert row')
     cur.execute('''
-        )
+        INSERT INTO test (string, number) VALUES ('one', 1)
+        ''')
+    print('insert row')
+    cur.execute('''
+        INSERT INTO test (string, number) VALUES ('two', 2)
+        ''')
